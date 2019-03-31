@@ -26,8 +26,8 @@ This demo deploys a simple Spring Boot web application that connects to Postgres
 
 1. Build a Docker image and push the image to Docker Hub
    ```
-   docker build -t <your Docker Hub account>/spring-boot-postgres-on-k8s .
-   docker push <your Docker Hub account>/spring-boot-postgres-on-k8s
+   docker build -t <your Docker Hub account>/spring-boot-postgres-on-k8s:v1 .
+   docker push <your Docker Hub account>/spring-boot-postgres-on-k8s:v1
    ```
 
 1. Replace `<your Docker Hub account>` with your account name in `specs/spring-boot-app.yml`, then deploy the app
