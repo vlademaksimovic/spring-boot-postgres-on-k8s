@@ -58,11 +58,6 @@ This demo deploys a simple Spring Boot web application that connects to Postgres
    kubectl delete -f specs/spring-boot-app.yml
    ```
 
-1. Delete the service for the app
-   ```
-   kubectl delete svc spring-boot-postgres-sample
-   ```
-
 1. Delete the hostname config map
    ```
    kubectl delete cm hostname-config
