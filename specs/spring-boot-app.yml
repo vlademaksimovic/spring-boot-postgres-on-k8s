@@ -29,4 +29,4 @@ spec:
               configMapKeyRef:
                 name: hostname-config
                 key: postgres_host
-        image: maxogm/spring-boot-postgres-on-k8s
+        image: maxogm/spring-boot-postgres-on-k8s:v1
