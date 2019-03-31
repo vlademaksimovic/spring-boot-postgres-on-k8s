@@ -35,11 +35,6 @@ This demo deploys a simple Spring Boot web application that connects to Postgres
    kubectl create -f specs/spring-boot-app.yml
    ```
 
-1. Create an external load balancer for your app
-   ```
-   kubectl expose deployment spring-boot-postgres-sample --type=LoadBalancer --port=8080
-   ```
-
 1. Get the External IP address of Service, then the app will be accessible at `http://<External IP Address>:8080`
    ```
    kubectl get svc spring-boot-postgres-sample
