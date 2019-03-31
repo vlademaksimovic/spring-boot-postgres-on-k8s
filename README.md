@@ -21,7 +21,7 @@ This demo deploys a simple Spring Boot web application that connects to Postgres
 1. Build the Spring Boot app
 
    ```
-   ./mvnw -DskipTests package
+   ./mvnw clean package
    ```
 
 1. Build a Docker image and push the image to Docker Hub
